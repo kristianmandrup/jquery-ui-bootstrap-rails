@@ -56,6 +56,7 @@ Gem::Specification.new do |s|
     "vendor/assets/javascripts/wijmo/jquery.bgiframe-2.1.3-pre.js",
     "vendor/assets/javascripts/wijmo/jquery.mousewheel.min.js",
     "vendor/assets/javascripts/wijmo/jquery.wijmo-open.all.min.js",
+    "vendor/assets/stylesheets/ui-bootstrap/jquery-ui-boostrap.latest.css",
     "vendor/assets/stylesheets/ui-bootstrap/jquery-ui-bootstrap.css",
     "vendor/assets/stylesheets/ui-bootstrap/ui-wijmo.css",
     "vendor/assets/stylesheets/ui-date_range_picker/ui.daterangepicker.css",
