@@ -6,14 +6,62 @@ See [jquery-ui-bootstrap](https://github.com/addyosmani/jquery-ui-bootstrap)
 
 `gem 'jquery-ui-bootstrap-rails'`
 
-## See in the `vendor/assets` folder.
+## Assets
 
-Note: Currently some of the assets are not linked correctly. This gem needs to be updated when the "mother project" supports Bootstrap 2.1. 
+Include the main CSS into the application stylesheet manifest:
 
-At that time I will try to make sure all assets are linked correctly and work.
-They say they plan to use LESS, and I will then convert the LESS to SCSS using a bash script. Then it will be easy to use with Compass :)
+```
+ *= require ui-bootstrap/jquery-ui-bootstrap
+```
 
-Cheers!
+This file is linked with the correct `/assets/` path to the custom ui images theme that is included (see `assets/images/ui-bootstrap/custom-theme`)
+
+## UI Wijmo
+
+In application stylesheet manifest:
+
+```
+ *= require ui-bootstrap/ui-wijmo
+```
+
+In application js manifest:
+
+```
+ //= require wijmo/jquery.wijmo-open.all.min
+```
+
+## Extras
+
+*Date range picker*
+
+In application stylesheet manifest:
+
+```
+ *= require ui-date_range_picker/date
+ *= require ui-date_range_picker/jquery.daterangepicker.min
+```
+
+In application js manifest:
+
+```
+ //= require ui-file_input/enhance.min
+ //= require ui-file_input/jquery.fileinput
+```
+
+*File input*
+
+In application stylesheet manifest:
+
+```
+ *= require ui-file_input/enhance
+```
+
+In application js manifest:
+
+```
+ //= require ui-file_input/enhance.min
+ //= require ui-file_input/fileinput.jquery
+```
 
 ## Important
 
