@@ -15,6 +15,10 @@ They say they plan to use LESS, and I will then convert the LESS to SCSS using a
 
 Cheers!
 
+## Important
+
+Just discovered this repo and gem: [jquery-ui-bootstrap-theme-rails](jquery-ui-bootstrap-theme-rails) Please use instead or help merge the various forks into a nice gem for Rails that works with Bootstrap 2.1 :)
+
 ## Contributing to jquery-ui-bootstrap-rails
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
