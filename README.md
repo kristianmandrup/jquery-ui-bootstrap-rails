@@ -14,9 +14,11 @@ Include the main CSS into the application stylesheet manifest:
  *= require ui-bootstrap/jquery-ui-bootstrap
 ```
 
-This file is linked with the correct `/assets/` path to the custom ui images theme that is included (see `assets/images/ui-bootstrap/custom-theme`)
+This file is linked with the correct `/assets/` path to the custom ui images theme that is included (see `assets/images/ui-bootstrap/custom-theme`). This version is based on jquery UI 1.8.16. If you want to live life on the edge, you can try `jquery-ui-bootstrap.latest` which is based on UI v. `1.8.23` (merged with updates by @grinn).
 
 ## UI Wijmo
+
+The gem also comes with Wijmo integration. Currently only tested for version 1.5, but wijmo 2.2.0 are included. Please see if the wijmo css files need a facelift a make me a pull request of the changes required to make it look right ;)
 
 In application stylesheet manifest:
 
@@ -30,7 +32,12 @@ In application js manifest:
  //= require wijmo/jquery.wijmo-open.all.min
 ```
 
-## Extras
+## UI Addons
+
+The gem comes with two add-ons for jQuery UI:
+
+* Date range picker
+* Fileinput
 
 *Date range picker*
 
@@ -65,7 +72,7 @@ In application js manifest:
 
 ## Important
 
-Just discovered this repo and gem: [jquery-ui-bootstrap-theme-rails](jquery-ui-bootstrap-theme-rails) Please use instead or help merge the various forks into a nice gem for Rails that works with Bootstrap 2.1 :)
+There is another gem [jquery-ui-bootstrap-theme-rails](jquery-ui-bootstrap-theme-rails) but I don't think it is currently as well designed as this one. I also want to keep the bloat down, and not include lots of less files etc. as there are many other bootstrap related gems out there that provides the bootstrap core files already. No reason for this gem to repackage a version of bootstrap itself!
 
 ## Contributing to jquery-ui-bootstrap-rails
  
